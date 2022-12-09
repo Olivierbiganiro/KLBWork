@@ -1,0 +1,135 @@
+
+* {
+  box-sizing: border-box
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.side-bar {
+  width: 195px;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  /*align-items: center;
+  justify-content: center;*/
+}
+.Home{
+  background-color: blue;
+  color: white;
+}
+.Homep{
+  color: white;
+}
+.Home h1,p{
+  color: white;
+}
+
+.Home button{
+  height: 50px;
+  width: 175px;
+}
+.buttonn button{
+  background-color: blue;
+  color: white;
+}
+.Home a{
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-transform: capitalize;
+
+}
+.FirstDIV{
+  margin-left: 53%; padding-left:2.5rem;
+}
+nav{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+nav ul {
+  margin-left: 40%;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  padding-right: 10px;
+  margin-left:0.4%;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 0.4rem 0.3rem;
+  font-weight: 400;
+  transition: all ease-out 250ms;
+}
+
+nav li a:hover {
+  color: lime;
+}
+
+.main-content {
+  margin-left: 160px;
+}
+
+section {
+  backgroundcolor: #f2f2f2;
+  /*height: 105vh;*/
+  margin:0;
+  padding:2.5rem 4rem;
+}
+
+section:nth-of-type(2n) {
+  background-color: #cccccc1c;
+}
+
+section:last-of-type {
+  height: 100vh;
+}
+
+.services h4,p{
+  color: black;
+  
+}
+.servicesdiv{
+  padding: 30px;
+  display: flex;
+  gap: 50px;
+}
+.servicess{
+  background-color: rgb(201, 201, 204);
+}
+.active {
+  color: lime; 
+  font-weight: 600;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+/*.wrapp{
+  padding-top: 65px;
+}*/
+.home-section{
+  color: #ffffff;
+}
