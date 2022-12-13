@@ -1,4 +1,4 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css)
+
 @keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -8,9 +8,7 @@
     transform: rotate(359deg);
   }
 }
-body{
-  background-image: url('img/slide 4 p.png');
-}
+
 .button,.file {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
