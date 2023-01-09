@@ -26,6 +26,8 @@ body {
   background-image: url(../img/imagesdfd.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 2cm;
+  
 }
 #services{
   background-color: #D9D9D9;
@@ -62,25 +64,38 @@ text-transform: capitalize;
 
 }
 .FirstDIV{
-  margin-left: 53%; padding-left:2.5rem;
+  /* margin-left: 53%; */
+  /* padding-left:2.5rem; */
+display: flex;
+gap: 60%;
 }
+
+
+
 nav{
+  background-color: rgb(111, 202, 152);
   position: fixed;
   right: 0;
   left: 0;
+  top: 0;
+  padding-left:2.5rem;
   z-index: 1030;
+  /* opacity: 50%; */
 }
 
 nav ul {
-  margin-left: 25%;
+  /* margin-left: 25%; */
   padding: 0;
   display: flex;
 }
-
+nav span{
+  color:blue;
+  font-style: italic;
+}
 nav li {
   list-style: none;
   padding-right: 10px;
-  margin-left:0.4%;
+  /* margin-left:0.4%; */
 }
 
 nav li a {
@@ -101,7 +116,7 @@ nav li a:hover {
 }
 
 section {
-  backgroundcolor: #f2f2f2;
+ 
   /*height: 105vh;*/
   margin:0;
   padding:2.5rem 4rem;
