@@ -1,321 +1,312 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Your custom styles -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/profile.css">
     <link rel="stylesheet" type="text/css" href="css/skill.css">
     <link rel="stylesheet" type="text/css" href="css/comment.css">
-   
-     <style>
-          .slide h5{
-        color: #ffffff;
-      }
-      .slide p{
-        color: #ffffff;
-      }
-      @media (min-width: 300px) {
-  .container-fluid{
-    margin-left: 53%;
-padding-left: 2.5rem;
-      }
-  }
-      
-    </style>
-  </head>
-  <body>
-    <nav>
-      <div class="FirstDIV">
-        <div>
-          <h1>
-            Oliv<span>ier</span> 
-          </h1>
+    <style>
+        .slide h5 {
+            color: #ffffff;
+        }
 
-        </div>
-        <div>
-          <ul >
-            <li>
-              <a href="#Home">Home</a>
+        .slide p {
+            color: #ffffff;
+        }
+
+        @media (min-width: 300px) {
+            .container-fluid {
+                margin-left: 53%;
+                padding-left: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        Oliv<span>ier</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#Home">Home</a>
             </li>
-            <li >
-              <a  href="#services">Services</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
             </li>
-            <li >
-              <a  href="#Education">edication</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#Education">Education</a>
             </li>
-            <li >
-              <a  href="#skills">Skills</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li>
-              <a href="#contacts">Contact~Me</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contact~Me</a>
             </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <section class="Home" id="Home">
-      <h3><center>Portfolio</center></h3><br>
-          <img src="img/pic.png" alt="jhasdsjk">
+        </ul>
+    </div>
+</nav>
+
+<section class="Home" id="Home">
+    <div class="container">
+        <h3 class="text-center">Portfolio</h3><br>
+        <img src="img/pic.png" alt="jhasdsjk" class="img-fluid">
         <p class="Homep">
-          I am Olivier BIGANIRO. I design 
+            I am Olivier BIGANIRO. I design
         </p>
         <p class="Homep">mobile and web experiences.</p>
-          <p class="Homep">
-            I am a UI\UX designer located in Kigali,Connecticut. I currently work as a part time<br>
-            Remote Junior Web Designer for Coolor, located in Nyarugenge. I am looking to take on more <br>
-           work and to increase my skills as a UI\UX enthusiast.
-          </p>
-          <button><a href="#contacts">Contact~Me</a></button>
-    
-     
-    </section>
- 
-    <section class="services" id="services">
-      <center>
-        <h4>Our Services</h4>
-      </center>
-      <div>
-        <div class="servicesdiv">
-          <div class="subdiv" >
-            <div class="profile-userpic">
-              <img src="img/brandingi.jpg" class="img-responsive" alt="">
-            </div>
-            <h4>Branding</h4>
-            <p>We brand your product by best quality  as soon as your request received</p>
-          </div>
-          <div class="subdiv">
-            <div class="profile-userpic">
-              <img src="img/photoshuti.jpg" class="img-responsive" alt="">
-            </div>
-            <h4>Photoshoot</h4>
-            <p>Best photograph,photoshooting and photo editing for promotion</p>
-          </div>
-          <div class="subdiv">
-            <div class="profile-userpic">
-              <img src="img/developuma.jpg" class="img-responsive" alt="">
-            </div>
-            <h4>Development</h4>
-            <p>We help our customer to get to know what you can do to earn</p>
-          </div>
-        </div>
-        <div class="servicesdiv">
-          <div class="subdiv">
-            <div class="profile-userpic">
-              <img src="img/adivet.jpg" class="img-responsive" alt="">
-            </div>
-            <h4>Advertisment</h4>
-            <p>We Advertisment your product by best quality as soon as your request received</p>
-          </div>
-          <div class="subdiv">
-            <div class="profile-userpic">
-              <img src="img/photoshuti.jpg" class="img-responsive" alt="">
-            </div>
-            <h4>Web Development</h4>
-            <p>We create website and other softwares related to either computer or phones</p>
-          </div>
-          <div class="subdiv">
-            <div class="profile-userpic">
-              <img src="img/ecommerce.jpg" class="img-responsive" alt="">
-            </div>
-            <h4>E-commerce</h4>
-            <p>Our customer to get online servive all over the world market</p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <p class="Homep">
+            I'm a versatile professional skilled in Flutter app development, system design,
+            and web design. I create cross-platform mobile apps, architect scalable systems,
+            and design user-friendly websites.
+            My commitment to technology and attention to detail drive successful
+            projects that meet diverse client needs and industry standards
+        </p>
+        <button class="btn btn-primary"><a href="#contacts" class="text-white">Contact~Me</a></button>
+    </div>
+</section>
 
-    <section id="Education"><br>
-      <h3><center>Education</center></h3><br>
-      <div class="servicesdiv">
-        <div class="subdiv">
-          <div >
-            <small class="text-muted">From 2019 until Now</small>
-          </div>
-          <div >
-            <h5 >University Of Rwanda</h5>
-            <h6>Advanced diploma in Information technology</h6>
-            <p class="card-text">Here I am currently take my universtity 
-              course at Nyarugenge Campus..............</p>
-          </div>
-         
-        </div>
-        <div class="subdiv">
-          <div >
-            <small >Year 2016-2018</small>
-          </div>
-          <div >
-            <h5 >Es Sumba- Nyamagabe</h5>
-            <h6>A2 in Math Comp & Eco </h6>
-            <p >Here is where I took my High level 
-              Studies.....</p>
-          </div>
-         
-        </div>
-       
-      </div>
-      <div class="servicesdiv4">
-        <div class="subdiv">
-          <div >
-            <div >
-              <small >Year 2013-2015</small>
-  
+<section class="services" id="services">
+    <div class="container">
+        <h4 class="text-center">Our Services</h4>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="servicesdiv">
+                    <div class="subdiv">
+                        <div class="profile-userpic">
+                            <img src="img/brandingi.jpg" class="img-responsive" alt="">
+                        </div>
+                        <h4>Branding</h4>
+                        <p>We brand your product by best quality as soon as your request received</p>
+                    </div>
+                </div>
             </div>
-            <h5 >GS Rusekera- Nyamagabe</h5>
-            <h6>O’ Level Certificate</h6>
-            <p >Here is where i took my S1-S3
-              studies...........</p>
-          </div>
-         
+            <div class="col-md-4">
+                <div class="servicesdiv">
+                    <div class="subdiv">
+                        <div class="profile-userpic">
+                            <img src="img/photoshuti.jpg" class="img-responsive" alt="">
+                        </div>
+                        <h4>Photoshoot</h4>
+                        <p>Best photograph, photoshooting, and photo editing for promotion</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="servicesdiv">
+                    <div class="subdiv">
+                        <div class="profile-userpic">
+                            <img src="img/developuma.jpg" class="img-responsive" alt="">
+                        </div>
+                        <h4>Development</h4>
+                        <p>We help our customer to get to know what you can do to earn</p>
+                    </div>
+                </div>
+            </div>
         </div>
-       
-        <div class="subdiv">
-          <div >
-            <small >Year 2007-2011</small>
-          </div>
-          <div >
-            <h5 >GS Rusekera</h5>
-            <h6>Primary Grade Certificate </h6>
-            <p >Here is where i took my primary
-              studies...........</p>
-          </div>
-          
+        <div class="row">
+            <div class="col-md-4">
+                <div class="servicesdiv">
+                    <div class="subdiv">
+                        <div class="profile-userpic">
+                            <img src="img/adivet.jpg" class="img-responsive" alt="">
+                        </div>
+                        <h4>Advertisment</h4>
+                        <p>We Advertisment your product by best quality as soon as your request received</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="servicesdiv">
+                    <div class="subdiv">
+                        <div class="profile-userpic">
+                            <img src="img/photoshuti.jpg" class="img-responsive" alt="">
+                        </div>
+                        <h4>Web Development</h4>
+                        <p>We create website and other softwares related to either computer or phones</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="servicesdiv">
+                    <div class="subdiv">
+                        <div class="profile-userpic">
+                            <img src="img/ecommerce.jpg" class="img-responsive" alt="">
+                        </div>
+                        <h4>E-commerce</h4>
+                        <p>Our customer to get online service all over the world market</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-      </div>
+    </div>
+</section>
+
+<section id="Education">
+    <div class="container"><br>
+        <h3 class="text-center">Education</h3><br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="servicesdiv">
+                    <div class="subdiv">
+                        <div>
+                            <small class="text-muted">From 2019 until Now</small>
+                        </div>
+                        <div>
+                            <h5>University Of Rwanda</h5>
+                            <h6>Advanced diploma in Information technology</h6>
+                            <p class="card-text">Here I am currently taking my university course at Nyarugenge Campus..............</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="servicesdiv">
+                    <div class="subdiv">
+                        <div>
+                            <small>Year 2016-2018</small>
+                        </div>
+                        <div>
+                            <h5>Es Sumba- Nyamagabe</h5>
+                            <h6>A2 in Math Comp & Eco</h6>
+                            <p>Here is where I took my High-level Studies.....</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="servicesdiv">
+                    <div class="subdiv">
+                        <div>
+                            <small>Year 2013-2015</small>
+                        </div>
+                        <div>
+                            <h5>GS Rusekera- Nyamagabe</h5>
+                            <h6>O’ Level Certificate</h6>
+                            <p>Here is where I took my S1-S3 studies...........</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="servicesdiv">
+                    <div class="subdiv">
+                        <div>
+                            <small>Year 2007-2011</small>
+                        </div>
+                        <div>
+                            <h5>GS Rusekera</h5>
+                            <h6>Primary Grade Certificate</h6>
+                            <p>Here is where I took my primary studies...........</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <br><br>
-
+    </div>
 </section>
 
 <section id="skills">
-  <div>
-    <div>
-      <h1>
-        <center>Skills </center>
-      </h1>
+    <div class="container">
+        <div>
+            <div>
+                <h1 class="text-center">Skills </h1>
+            </div>
+            <div>
+                <h1>My level of skills about Web Development Languages</h1>
+            </div>
+            <div class="container1">
+                <div class="skills html">92%</div>
+            </div>
+            <p>Html & Css</p>
+            <div class="container1">
+                <div class="skills css">83%</div>
+            </div>
+            <p>Python</p>
+            <div class="container1">
+                <div class="skills js">82%</div>
+            </div>
+            <p>Dart</p>
+            <div class="container1">
+                <div class="skills php">80%</div>
+            </div>
+            <p>C#</p>
+        </div>
     </div>
-    <div>
-     <h1>My level of skills about WebDelopment Languages</h1>
-    </div>
-    <div class="container1">
-      <div class="skills html">92%</div>
-    </div>
-    
-    <p>Html</p>
-    <div class="container1">
-      <div class="skills css">83%</div>
-    </div>
-    
-    <p>Css</p>
-    <div class="container1">
-      <div class="skills js">71%</div>
-    </div>
-    
-    <p>Dart</p>
-    <div class="container1">
-      <div class="skills php">63%</div>
-    </div>
-          <p>PHP</p>
-  </div>
 </section>
-
-
 
 <section id="contacts"><br><br>
-      <h1><center>Contact~Me</center> </h1><br>
-<div id="fcf-form">
-  <div class="serviceslastdiv">
-        <div>
-         <div>
-         
-          <h1>Favorities Contact</h1>
-         </div>
-         <div class="servicesdiv">
-          <div>
-            <p>
-              Phone
-            </p>
-            <p>
-              Email
-            </p>
-            <p>
-              Adrees
-            </p>
-            <p>
-              Socila Media
-            </p>
-
-          </div>
-          <div >
-            <div>
-            <p>
-              +250780238345
-            </p>
-             </div>
-             <div>
-            <p>
-              biganiroo@gmail.com
-            </p>
-             </div>
-            <div>
-            <p>
-              Kigali, Rwanda, Nyarugenge
-            </p>
-          </div>
-            <div class="servicesdivsocial">
-              
-              <div>
-               <a href="#"> <img src="img/instagram-new.png" alt=""></a>
-              </div>
-              <div>
-                <a href="#"><img src="img/telegram-app 1.png" alt=""></a>
-              </div>
-              <div>
-                <a href="#"> <img src="img/twitter 1.png" alt=""></a>
-              </div>
+    <div class="container">
+        <h1 class="text-center">Contact~Me</h1><br>
+        <div id="fcf-form">
+            <div class="serviceslastdiv">
+                <div>
+                    <div>
+                        <h1>Favorities Contact</h1>
+                    </div>
+                    <div class="servicesdiv">
+                        <div>
+                            <p>Phone</p>
+                            <p>Email</p>
+                            <p>Address</p>
+                            <p>Social Media</p>
+                        </div>
+                        <div>
+                            <div>
+                                <p>+250780238345</p>
+                            </div>
+                            <div>
+                                <p>biganiroo@gmail.com</p>
+                            </div>
+                            <div>
+                                <p>Kigali, Rwanda, Nyarugenge</p>
+                            </div>
+                            <div class="servicesdivsocial">
+                                <div>
+                                    <a href="https://www.linkedin.com/in/olivier-biganiro-407ba7250/"><img src="img/download (1).png" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href="https://web.facebook.com/olivier.biganiro.52"><img src="img/facebook-new.png" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/Olivierbiganiro"><img src="img/670020.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div>
-
-          </div>
-         </div>
         </div>
-        <div class="buttonn">
-          <form  method="post" action="">
-
-               <div class="field">
-                   <label for="Name" class="label has-text-weight-normal">Your name</label>
-                   <div class="">
-                       <input type="text" name="Name" id="Name" class="input is-full-width" maxlength="100"
-                           data-validate-field="Name">
-                   </div>
-               </div>
-               <div class="field">
-                   <label for="Email" class="label has-text-weight-normal">Your email address</label>
-                   <div class="control">
-                       <input type="email" name="Email" id="Email" class="input is-full-width" maxlength="100"
-                           data-validate-field="Email">
-                   </div>
-               </div>
-               <div class="field">
-                   <label for="Message" class="label has-text-weight-normal">Your message</label>
-                   <div class="control">
-                       <textarea name="Message" id="Message" class="textarea" maxlength="3000" rows="5" 
-                       data-validate-field="Message"></textarea>
-                   </div>
-               </div>
-               <div id="fcf-status" class="fcf-status"></div>
-               <div class="field">
-                   <div class="buttons">
-                       <button id="fcf-button" type="submit" class="button is-link is-medium">Send Message</button> 
-                   </div>
-               </div>             
-          </form>
-       </div>
-      </div>
-  </div>
+    </div>
 </section>
-  </body>
+<footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+                <p><strong>@2023</strong> Olivier Developer</p>
+            </div>
+        </div>
+    </div>
+        </div>
+    </footer>
+
+<!-- Include Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
